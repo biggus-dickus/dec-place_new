@@ -1,16 +1,24 @@
 {
   "name": "dec-place_new",
-  "version": "1.0.0",
-  "description": "A prettier version of dec-place.com/promo",
+  "version": "1.1.0",
+  "description": "A prettier version of lp.dec-place.com/promo",
   "author": "Max Maslenko",
   "license": "ISC",
   "readme": "README.md",
-  "devDependencies": {
-    "browser-sync": "^2.11.1",
+  "repository": "git@github.com:biggus-dickus/dec-place_new.git",
+  "dependencies": {
+    "browser-sync": "^2.9.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-combine-mq": "^0.4.0",
     "gulp-cssnano": "^2.1.1",
     "gulp-imagemin": "^2.4.0",
-    "gulp-rigger": "^0.5.8"
+    "gulp-less": "^3.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.2",
+    "rimraf": "^2.5.2"
   }
 }
