@@ -1,0 +1,230 @@
+.main-form {
+  position: absolute;
+  top: -485px;
+  right: 0;
+
+  @media @mobile {
+    position: static;
+  }
+}
+
+.form-arrow {
+  position: relative;
+  top: 85px;
+  right: 205px;
+  float: left;
+  max-width: 440px;
+  min-height: @form-arrow-height;
+  box-sizing: border-box;
+  padding: 20px 55px 25px 45px;
+  background-color: @white-alpha;
+
+  @media @mobile {
+    position: static;
+    float: none;
+    max-width: none;
+    padding: 65px 0 45px;
+    text-align: center;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -(floor(@form-arrow-height / 4));
+    .triangle(right; floor(@form-arrow-height / 2) floor(@form-arrow-height / 4); @white-alpha);
+
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 24px;
+    color: @black;
+
+    @media @mobile {
+      font-size: @h2 * 0.88;
+      line-height: 1.2em;
+    }
+  }
+
+  &__text&__text--title {
+    display: block;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 36px;
+
+    @media @mobile {
+      margin-bottom: 0.2em;
+      font-size: @h2;
+      color: @green;
+    }
+  }
+}
+
+.form-holder {
+  float: right;
+  position: relative;
+
+  @media @mobile {
+    position: static;
+    float: none;
+  }
+}
+
+.promoform {
+  box-sizing: border-box;
+  width: 365px;
+  padding: 25px 35px 35px 25px;
+  background-color: @white-alpha;
+  @media @mobile {
+    width: auto;
+    padding: 55px 80px 70px;
+    background-color: #dedede;
+  }
+
+  &&--success {
+    min-height: 310px;
+    background: @white url("../img/icons/icon-call.svg") no-repeat 90% 88%;
+    background-size: 97px 97px;
+    @media @mobile {
+      min-height: 435px;
+      background-size: 150px 150px;
+    }
+  }
+
+  &__header,
+  &__header--success {
+    box-sizing: border-box;
+    width: 365px;
+    margin: 0;
+    font-size: @h2;
+    font-weight: 600;
+    color: @black;
+
+    @media @mobile {
+      width: auto;
+      font-size: 10vw;
+    }
+  }
+
+  &__header {
+    padding-left: 85px;
+    line-height: 80px;
+    background: @green url("../img/icons/pen.svg") no-repeat -2px -2px;
+
+    @media @mobile {
+      padding-left: 180px;
+      line-height: 145px;
+      background: @green url("../img/icons/pen--mobile.svg") no-repeat 0 0;
+      background-size: 155px 190px;
+    }
+  }
+
+  &__header--success {
+    padding: 10px 30px;
+    line-height: @h2;
+    background-color: @yellow;
+    background-image: none;
+    @media @mobile {
+      padding: 45px 15px 30px 70px;
+      font-size: 73px;
+      line-height: 69px;
+    }
+  }
+
+  &__text-success {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: left;
+    color: @black;
+    @media @mobile {
+      font-size: 54px;
+      line-height: 55px;
+    }
+  }
+
+  &__text,
+  &__number {
+    box-sizing: border-box;
+    display: block;
+    width: 300px;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border: 0;
+    font-size: 19px;
+    font-weight: 300;
+    color: #1a1a1a;
+    @media @mobile {
+      width: 100%;
+      margin-bottom: 30px;
+      padding: 20px 30px;
+      font-size: 37px;
+    }
+  }
+
+  /* Setting the placeholder color */
+  input:-moz-placeholder {color: #c2c2c2;}
+  input::-moz-placeholder {color: #c2c2c2;}
+  input::-webkit-input-placeholder {color: #c2c2c2;}
+  input:-ms-input-placeholder {color: #c2c2c2;}
+
+  /* Smoothly changing input fields opacity on focus */
+  input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+  input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+  input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+  input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+  input:focus::-webkit-input-placeholder {opacity: 0.5; transition: opacity 0.3s ease;}
+  input:focus::-moz-placeholder          {opacity: 0.5; transition: opacity 0.3s ease;}
+  input:focus:-moz-placeholder           {opacity: 0.5; transition: opacity 0.3s ease;}
+  input:focus:-ms-input-placeholder      {opacity: 0.5; transition: opacity 0.3s ease;}
+
+  &__submit {
+    position: relative;
+    box-sizing: border-box;
+    width: 300px;
+    margin-top: 10px;
+    padding: 0 15px;
+    border: 0;
+    font-size: 27px;
+    line-height: 45px;
+    font-weight: 100;
+    color: @white;
+    text-transform: lowercase;
+    text-align: left;
+    background: @orange url("../img/icons/submit-triangle.png") no-repeat 100% 0;
+    outline: none;
+    box-shadow: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background 200ms ease;
+    @media @mobile {
+      width: 100%;
+      padding: 0 75px 0 20px;
+      margin-top: 30px;
+      font-size: 53px;
+      line-height: 74px;
+      background: @orange url("../img/icons/submit-triangle--mobile.png") no-repeat 100% 0;
+    }
+  }
+
+  &__submit:hover {
+    background-color: darken(@orange, 5%);
+  }
+
+   &__submit&__submit--disabled {
+    background: #c3c3c3 url("../img/icons/submit-triangle--dis.png") no-repeat 100% 0;
+    @media @mobile {
+      background: #c3c3c3 url("../img/icons/submit-triangle--dis-mobile.png") no-repeat 100% 0;
+    }
+  }
+
+  &__submit&__submit--disabled:hover {
+    background-color: #c3c3c3;
+  }
+}

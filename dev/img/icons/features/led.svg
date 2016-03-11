@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 200 200" xml:space="preserve" height="200px" width="200px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+<switch>
+	<foreignObject y="0" x="0" height="1" width="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+		<g id="icons">
+					<rect y="106.82" x="97.954" height="73.583" width="4" fill="#404148"/>
+					<rect y="106.82" x="114.42" height="57.65" width="4" fill="#404148"/>
+					<rect y="98.525" x="84.049" height="4" width="48.274" fill="#404148"/>
+					<rect y="23.187" x="106.18" height="13.648" width="4" fill="#404148"/>
+					<rect y="65.493" x="138.85" height="4" width="13.644" fill="#404148"/>
+					<rect y="65.493" x="63.875" height="4" width="13.652" fill="#404148"/>
+						<rect transform="matrix(.8609 .5087 -.5087 .8609 35.606 -59.829)" height="13.649" width="3.998" y="28.382" x="125.23" fill="#404148"/>
+						<rect transform="matrix(.8612 .5083 -.5083 .8612 35.159 -31.854)" height="4" width="13.649" y="46.446" x="69.078" fill="#404148"/>
+						<rect transform="matrix(.5014 .8652 -.8652 .5014 112.24 -97.382)" height="13.651" width="3.999" y="41.867" x="138.61" fill="#404148"/>
+						<rect transform="matrix(.5014 .8652 -.8652 .5014 74.911 -59.855)" height="4" width="13.647" y="33.065" x="82.562" fill="#404148"/>
+					<path d="m131.16 94.187h-45.955v-25.457c0-14.04 10.309-25.462 22.98-25.462 12.67 0 22.978 11.422 22.978 25.462v25.457zm-41.955-4h37.958v-21.457c0-11.834-8.514-21.462-18.978-21.462-10.466 0-18.98 9.628-18.98 21.462v21.457z" fill="#404148"/>
+		</g>
+	</g>
+</switch>
+</svg>

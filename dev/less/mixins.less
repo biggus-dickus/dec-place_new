@@ -1,0 +1,100 @@
+.mobile-only() {
+  @media @mobile {
+    display: block;
+  }
+  @media @resize {
+    display: none;
+  }
+  @media @desktop {
+    display: none;
+  }
+}
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/* CSS triangles Mixin */
+.triangle(@_; @size; @color) {
+    width: 0;
+    height: 0;
+    border-width: @size;
+    border-style: solid;
+    border-color: @color;
+}
+
+.triangle(top; @size; @color) {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-style: none;
+}
+
+.triangle(right; @size; @color) {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-style: none;
+}
+
+.triangle(bottom; @size; @color) {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-style: none;
+}
+
+.triangle(left; @size; @color) {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-style: none;
+}
+
+.btn() {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+/* Button Mixin */
+.btn-variant(@color, @background, @border) {
+  color: @color;
+  background-color: @background;
+  border-color: @border;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    color: @color;
+    background-color: darken(@background, 5%);
+    border-color: darken(@border, 8%);
+  }
+  &:active,
+  &.active {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: lighten(@background, 85%);
+      color: #333;
+      border-color: @border;
+      cursor: not-allowed;
+    }
+  }
+}

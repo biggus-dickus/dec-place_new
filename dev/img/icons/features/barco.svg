@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 200 200" xml:space="preserve" height="200px" width="200px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+<switch>
+	<foreignObject y="0" x="0" height="1" width="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+		<g id="icons">
+					<path d="m116.94 177.51c-25.757 0-38.165-19.367-43.464-27.638-0.321-0.501-0.62-0.968-0.898-1.394-4.248-6.53-21.772-34.259-26.915-44.545-2.198-4.396-2.337-8.55-0.393-11.697 1.648-2.667 4.577-4.198 8.035-4.198 2.064 0 4.248 0.567 6.312 1.64 5.451 2.836 11.318 8.409 14.945 12.18v-49.029c0-6.261 5.099-11.355 11.366-11.355h1.804c6.259 0 11.352 5.094 11.352 11.355v26.426c1.984-1.691 4.556-2.713 7.36-2.713h0.812c4.767 0 8.856 2.953 10.538 7.125 2.067-2.146 4.967-3.483 8.174-3.483h1.499c6.257 0 11.347 5.099 11.347 11.365v0.251c1.978-1.473 4.537-2.35 7.332-2.35h0.815c6.265 0 11.361 5.099 11.361 11.364v38.949c0 12.81-14.61 37.74-41.38 37.74zm-63.639-85.472c-2.041 0-3.729 0.839-4.633 2.301-1.188 1.923-0.986 4.695 0.568 7.805 4.746 9.494 21.014 35.43 26.688 44.149 0.281 0.432 0.587 0.908 0.915 1.42 5.364 8.373 16.525 25.796 40.096 25.796 24.664 0 37.384-23.651 37.384-33.742v-38.949c0-4.061-3.304-7.364-7.361-7.364h-0.815c-3.898 0-7.193 2.563-7.341 5.714l-0.006 8.172-4-0.004v-7.938c0-0.141 0.003-0.28 0.01-0.42l0.005-7.428c0-4.059-3.296-7.363-7.347-7.363h-1.499c-4.057 0-7.356 3.304-7.356 7.365v10.823h-4v-14.479c0-4.057-3.3-7.357-7.355-7.357h-0.812c-4.059 0-7.36 3.3-7.36 7.357v19.105h-4v-54.179c0-4.056-3.299-7.355-7.352-7.355h-1.804c-4.062 0-7.366 3.3-7.366 7.355v59.601l-3.521-4.127c-0.094-0.109-9.441-11.005-17.268-15.078-1.487-0.772-3.032-1.184-4.458-1.184z" fill="#404148"/>
+					<rect y="17.966" x="84.398" height="20.022" width="4" fill="#404148"/>
+						<rect transform="matrix(.7913 .6114 -.6114 .7913 37.247 -30.495)" height="3.999" width="20.023" y="37.32" x="53.289" fill="#404148"/>
+						<rect transform="matrix(.6113 .7914 -.7914 .6113 73.683 -71.372)" height="20.027" width="4" y="29.306" x="107.49" fill="#404148"/>
+						<rect transform="matrix(.9703 .2421 -.2421 .9703 18.958 -25.865)" height="4" width="20.023" y="62.208" x="104.71" fill="#404148"/>
+						<rect transform="matrix(.2422 .9702 -.9702 .2422 106.3 -7.686)" height="20.035" width="4" y="54.191" x="56.072" fill="#404148"/>
+		</g>
+	</g>
+</switch>
+</svg>

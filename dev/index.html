@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Платформа подій нової генерації</title>
+</head>
+<body>
+
+  <header class="page-header  flex-item  flex-item--header">
+    <div class="page-header__stripe">
+      <div class="content-wrapper  content-wrapper--top-mobile">
+        <a class="page-header__logo" href="//dec-place.com" title="На головну DEC place">На головну DEC place</a>
+        <h1 class="page-header__title">Платформа подій нової генерації</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- FORM -->
+  <div class="content-wrapper  content-wrapper--form_mobile  flex-item  flex-item--form">
+    <section class="main-form">
+      <div class="form-arrow">
+        <p class="form-arrow__text">
+          <span class="form-arrow__text  form-arrow__text--title">Заповніть онлайн-форму,</span>
+          і&nbsp;з&nbsp;вами зв&rsquo;яжеться наш менеджер. Будемо раді відповісти на&nbsp;ваші запитання і&nbsp;познайомити вас із&nbsp;DEC place особисто.
+        </p>
+      </div>
+
+      <!-- Form container -->
+      <div id="form-holder" class="form-holder">
+        <h3 class="promoform__header">
+          <a id="reg">Реєстрація</a>
+        </h3>
+        <form class="promoform" id="promoform" action="index.php" method="post">
+          <input class="promoform__text" name="fio" id="student-name" type="text" placeholder="ПІБ" required>
+          <input class="promoform__number" name="phone" id="student-phone" type="tel" placeholder="Телефон" pattern="\+38\s[0-9]{3}\s[0-9]{3}\s[0-9]{2}\s[0-9]{2}" required>
+          <input class="promoform__text" name="email" id="student-email" type="email" placeholder="E-mail" required>
+          <input class="promoform__submit" name="reg" id="promoform-submit" type="submit" value="Надіслати заявку">
+        </form>
+      </div>
+
+      <!-- Form success -->
+      <div id="submit-success" class="form-holder hidden">
+        <h3 class="promoform__header  promoform__header--success">Заявка отримана!</h3>
+        <div class="promoform  promoform--success">
+          <p class="promoform__text-success">
+            Дякуємо:) Менеджер DEC place зв&rsquo;яжеться з&nbsp;вами найближчим часом.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+  <section class="why-us  flex-item  flex-item--why-us">
+    <div class="stripe  stripe--green  stripe--green-triangle">
+      <h2 class="why-us__header">Чому DEC place?</h2>
+    </div>
+
+    <div class="content-wrapper  content-wrapper--features_mobile">
+      <div class="why-us__col  why-us__col--bg-square">
+        <h3 class="why-us__col-header">
+          Площа<br>
+          600 м<sup>2</sup>
+        </h3>
+        <p class="why-us__col-description">
+          DEC place розташований у&nbsp;центрі Києва й&nbsp;має масштабований простір 600 м<sup>2</sup>, що&nbsp;є&nbsp;унікальним для центральної частини міста.
+        </p>
+      </div>
+      <div class="why-us__col  why-us__col--bg-events  why-us__col--white">
+        <h3 class="why-us__col-header">Будь-які заходи</h3>
+        <p class="why-us__col-description">
+          Тут можна проводити заходи будь-якого формату і&nbsp;складності: великі й&nbsp;малі, урочисті й&nbsp;ділові, дитячі й&nbsp;наукові.
+        </p>
+      </div>
+      <div class="why-us__col  why-us__col--bg-flexibility">
+        <h3 class="why-us__col-header">Гнучкість простору</h3>
+        <p class="why-us__col-description">
+          Наша платформа гнучка й&nbsp;легко трансформується. Сучасне професійне обладнання дозволяє проводити заходи будь-якої складності.
+        </p>
+      </div>
+    </div>
+    <div class="why-us__main-feature  mob-hidden">
+      <div class="content-wrapper">
+        Всі елементи інтер&rsquo;єру DEC place можна легко переміщувати, щоб трансформувати простір під потреби кожної конкретної події.
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="layout  mob-hidden">
+    <h2 class="layout__header">Схема простору</h2>
+    <div class="content-wrapper">
+      <div class="layout__container">
+        <img class="layout__img" width="1060" height="800"
+          src="img/content/floor-plan.jpg"
+          srcset="img/content/floor-plan@2x.jpg 2x"
+          alt="Floor Plan">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="features  mob-hidden">
+    <div class="stripe  stripe--green  stripe--green-triangle">
+      <div class="content-wrapper">
+        <h2 class="features__main-title">
+          У&nbsp;нас ви&nbsp;знайдете все, що&nbsp;потрібно для бездоганних подій
+        </h2>
+      </div>
+    </div>
+
+    <div class="stripe">
+      <div class="content-wrapper  content-wrapper--features">
+
+        <div class="features__row">
+          <div class="features__item  features__item--led">
+            <h3 class="features__header">LED-освітлення (1500&nbsp;лм)</h3>
+            <p class="features__description">
+              Змінне зонування освітленням.&nbsp;150 відтінків для підбору.
+            </p>
+          </div>
+          <div class="features__item  features__item--barco">
+            <h3 class="features__header">Barco Clickshare</h3>
+            <p class="features__description">Бездротова система для проведення ваших презентацій.</p>
+          </div>
+          <div class="features__item  features__item--acoustic">
+            <h3 class="features__header">Акустична система</h3>
+            <p class="features__description">
+              Сучасна акустична система розподіленого звуку JBL Control One AW.
+            </p>
+          </div>
+          <div class="features__item  features__item--fixtures">
+            <h3 class="features__header">Галерейні кріплення</h3>
+            <p class="features__description">
+              Фіксовані рейкові кріплення для картин, фотографій та&nbsp;інших візуальних матеріалів.
+            </p>
+          </div>
+        </div>
+
+        <div class="features__row">
+          <div class="features__item  features__item--kids">
+            <h3 class="features__header">Дитяча кімната</h3>
+            <p class="features__description">
+              Розважальні події англійською для дітей під час заходів для батьків.
+            </p>
+          </div>
+          <div class="features__item  features__item--wifi">
+            <h3 class="features__header">Високошвидкісний Wi-Fi</h3>
+            <p class="features__description">
+              UniFi AP&nbsp;Ubiquiti&nbsp;&mdash; масштабована система Wi-Fi для корпорацій.
+            </p>
+          </div>
+          <div class="features__item  features__item--yamaha">
+            <h3 class="features__header">Yamaha Sound</h3>
+            <p class="features__description">Ресивер аудіо- та&nbsp;відеопотоків.</p>
+          </div>
+          <div class="features__item  features__item--projectors">
+            <h3 class="features__header">5&nbsp;проекторів на&nbsp;5&nbsp;екранах</h3>
+            <p class="features__description">Потужні сучасні можливості для ваших презентацій.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="services  mob-hidden">
+    <div class="stripe  stripe--green">
+      <div class="content-wrapper">
+        <h2 class="services__main-title">
+          Технічне оснащення DEC place дозволить реалізувати ваші найкреативніші ідеї з&nbsp;неодмінно високою якістю відео та&nbsp;звуку
+        </h2>
+      </div>
+    </div>
+
+    <div class="stripe  stripe--mid-pic">
+      <div class="content-wrapper">
+        <div class="services__container">
+          <div class="services__item">
+            <h3 class="services__title">Послуги, що&nbsp;надає DEC place</h3>
+          </div>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/key.svg" alt="Event Management">
+            <figcaption class="services__caption">
+              Event management повного циклу: реалізація проектів &laquo;під ключ&raquo;
+            </figcaption>
+          </figure>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/techsupport.svg" alt="Tech Support">
+            <figcaption class="services__caption">Команда техпідтримки для обслуговування апаратури і&nbsp;налаштувань обладнання</figcaption>
+          </figure>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/photo-video.svg" alt="Photo/Video">
+            <figcaption class="services__caption">
+              Фото- та&nbsp;відеозйомка професійними фотографами й&nbsp;операторами; відео та&nbsp;фото &laquo;під ключ&raquo;
+            </figcaption>
+          </figure>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/catering.svg" alt="Catering">
+            <figcaption class="services__caption">
+              Банкетне обслуговування повного циклу: страви, напої, обладнання, персонал та&nbsp;логістика
+            </figcaption>
+          </figure>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/aux-staff.svg" alt="Aux Staff">
+            <figcaption class="services__caption">Допоміжний персонал: хостес, вантажники, гардеробники тощо</figcaption>
+          </figure>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/music.svg" alt="Entertainment">
+            <figcaption class="services__caption">
+              Організація розважальної програми, залучення музичних колективів, запрошення відомих персон
+            </figcaption>
+          </figure>
+          <figure class="services__item">
+            <img class="services__pic" src="img/icons/services/media-coverage.svg" alt="Media Coverage">
+            <figcaption class="services__caption">PR-супровід та&nbsp;висвітлення заходів у&nbsp;ЗМІ</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="formats  mob-hidden">
+    <div class="content-wrapper">
+      <div class="formats__container">
+        <div class="formats__pic-block">
+          <img width="450" height="315" src="img/content/format1.jpg" alt="format1">
+          <img width="450" height="315" src="img/content/format2.jpg" alt="format2">
+          <img width="450" height="315" src="img/content/format3.jpg" alt="format3">
+        </div>
+        <div class="formats__text-block">
+          <h2 class="formats__header">Можливі<br>
+          формати подій</h2>
+          <p class="formats__text">
+            У&nbsp;нас є&nbsp;всі технічні, організаційні та&nbsp;людські ресурси для проведення найрізноманітніших заходів.
+          </p>
+          <p class="formats__text">
+            Масштабованість простору дозволяє легко міняти структуру інтер&rsquo;єру, щоб максимально відповідати потребам формату конкретної події.
+          </p>
+          <ul class="formats__list">
+            <li>заходи для ЗМІ: прес-конференції, ланчі, брифінги;</li>
+            <li>презентації нових продуктів, послуг, технологій;</li>
+            <li>корпоративні річні звіти;</li>
+            <li>арт-інсталяції та&nbsp;презентації;</li>
+            <li>освітні заходи: лекції, семінари, майстер-класи, тренінги;</li>
+            <li>круглі столи, публічні дискусії;</li>
+            <li>дитячі свята;</li>
+            <li>персональні свята та&nbsp;урочисті події;</li>
+            <li>модні покази;</li>
+            <li>кінопокази;</li>
+            <li>перегляд спортивних трансляцій.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="invitation  mob-hidden">
+    <div class="stripe  stripe--darkgray">
+      <div class="content-wrapper">
+        <p class="invitation__main-caption">
+          Ми&nbsp;готові розробити концепцію вашого заходу та&nbsp;підготувати все необхідне для його&nbsp;успішного проведення.
+        </p>
+      </div>
+    </div>
+
+    <div class="stripe  stripe--triangles">
+      <div class="content-wrapper  text-center">
+        <p class="invitation__subcaption">Бажаєте приїхати в&nbsp;гості та&nbsp;оглянути наш майданчик?</p>
+        <p class="invitation__subcaption">Заповнюйте онлайн-форму!</p>
+        <a class="reg-button" href="#reg">Повідомити нас про візит</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="map" class="stripe  stripe--map  flex-item  flex-item--map">
+    <figure class="map  map__holder  hidden">
+      <a class="map__modal-close" id="hide-marker" title="Сховати покажчик">&times;</a>
+      <img class="map__logo" src="img/logos/logo-map.svg" width="242" height="193" alt="DEC place logo">
+      <figcaption class="map__address">
+        23b Lesi Ukrainky blvd, Kyiv city, Ukraine<br>
+        Mobile: +380 93 156 7722
+      </figcaption>
+    </figure>
+  </section>
+
+
+
+  <section class="stripe  stripe--pre-footer  flex-item  flex-item--pre-footer">
+    <div class="content-wrapper  content-wrapper--pre-footer invite">
+      <h4 class="invite__header">Чекаємо в&nbsp;гості!</h4>
+      <p class="invite__text">Київ, бул. Лесі Українки, 23б, в&nbsp;будні з&nbsp;10:00 до&nbsp;19:00</p>
+    </div>
+  </section>
+
+
+  <footer class="stripe  stripe--darkgray  flex-item  flex-item--footer">
+    <div class="content-wrapper  dec-footer">
+      <div class="dec-footer__item  dec-footer__item--logo  mob-hidden">
+        <a class="dec-footer__logo-img" href="//dec-place.com">
+          <img width="189" height="137" src="img/logos/logo-footer.svg" alt="DEC place logo">
+        </a>
+      </div>
+      <h3 class="dec-footer__mobile-caption">Оренда і&nbsp;співробітництво</h3>
+      <div class="dec-footer__item  dec-footer__item--tel">
+        <span class="dec-footer__phone">+380 44 495 51 87</span>
+        <span class="dec-footer__phone">+380 50 330 21 51</span>
+      </div>
+      <div class="dec-footer__item  dec-footer__item--internets">
+        <a class="dec-footer__www" href="//dec-place.com">www.dec-place.com</a>
+        <a class="dec-footer__email" href="mailto:Larisa.Kharchuk@dec.ua">Larisa.Kharchuk@dec.ua</a>
+      </div>
+
+      <div class="dec-footer__item">
+        <a class="sn sn--fb" href="https://www.facebook.com/decplacepresents" target="_blank" title="Мы на Facebook">Мы на Facebook</a>
+        <a class="sn sn--yt" href="https://www.youtube.com/user/DECEDUCOM" target="_blank" title="Мы на YouTube">Мы на YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="lib/jquery-1.11.3.min.js"></script>
+  <script src="lib/jquery.mask.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd--jcSIOuwbSZm7JbjFlK_VwFaKWaFCU&region-UA&callback=initMap"></script> -->
+
+</body>
+</html>

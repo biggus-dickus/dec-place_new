@@ -1,0 +1,59 @@
+.hidden {
+	display: none;
+}
+
+.mob-hidden {
+	@media @mobile {
+		display: none !important;
+	}
+}
+
+.to-left {
+	float: left;
+}
+
+.to-right {
+	float: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.ib {
+	list-style: none;
+	padding-left: 0;
+	font-size: 0;
+
+	&&--flex-mobile {
+		@media @mobile {
+			position: relative;
+			width: 750px;
+			left: -70px;
+			display: flex;
+			align-items: flex-end;
+			flex-wrap: wrap;
+		}
+	}
+
+	&__item {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	&__item&__item--vab {
+		vertical-align: bottom;
+	}
+}
+
+.font-normal {
+	font-weight: 400;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 180 180" xml:space="preserve" height="180px" viewBox="0 0 180 180" width="180px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink">
+<switch>
+	<g>
+		<rect y="101.5" x="77.437" height="11.051" width="27.346" fill="#fff"/>
+			<rect stroke-linejoin="round" height="11.051" width="27.346" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" y="101.5" x="77.437" stroke-width="1.8408" fill="none"/>
+		<polyline points="105.79 53.741 105.79 46.586 76.424 46.586 76.424 53.741 50.919 53.741 50.919 104.14 131.3 104.14 131.3 53.741" fill="#fff"/>
+			<polygon stroke-linejoin="round" points="105.79 53.741 105.79 46.586 76.424 46.586 76.424 53.741 50.919 53.741 50.919 104.14 131.3 104.14 131.3 53.741" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8408" fill="none"/>
+			<circle stroke-linejoin="round" r="19.782" cx="91.109" cy="76.896" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8408" fill="none"/>
+			<circle stroke-linejoin="round" r="14.161" cx="91.109" cy="76.896" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8408" fill="none"/>
+		<line y1="139.65" x2="91.105" x1="91.105" y2="112.9" fill="#fff"/>
+			<line stroke-linejoin="round" x1="91.105" y2="112.9" x2="91.105" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" y1="139.65" stroke-width="1.8408" fill="none"/>
+		<line y1="139.65" x2="91.105" x1="73.551" y2="125.07" fill="#fff"/>
+			<line stroke-linejoin="round" x1="73.551" y2="125.07" x2="91.105" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" y1="139.65" stroke-width="1.8408" fill="none"/>
+		<line y1="139.65" x2="91.107" x1="108.67" y2="125.07" fill="#fff"/>
+			<line stroke-linejoin="round" x1="108.67" y2="125.07" x2="91.107" stroke="#565655" stroke-linecap="round" stroke-miterlimit="10" y1="139.65" stroke-width="1.8408" fill="none"/>
+	</g>
+</switch>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "dec-place_new",
+  "version": "1.0.0",
+  "description": "A prettier version of dec-place.com/promo",
+  "author": "Max Maslenko",
+  "license": "ISC",
+  "readme": "README.md",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-rigger": "^0.5.8"
+  }
+}

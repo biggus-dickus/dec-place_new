@@ -1,0 +1,66 @@
+.page-header {
+  position: relative;
+  padding-top: 80px;
+  min-height: 670px;
+  @media @desktop {
+    background: #DADAD8 url("../img/bg/bg-header--desktop@1x.jpg") no-repeat 50% 0;
+    background-size: cover;
+    @media @retina2x {
+      background: #DADAD8 url("../img/bg/bg-header--desktop@2x.jpg") no-repeat 50% 0;
+      background-size: cover;
+    }
+  }
+  @media @resize {
+    background: #DADAD8 url("../img/bg/bg-header--resize.jpg") no-repeat 50% 0;
+    background-size: cover;
+  }
+  @media @mobile {
+    padding-top: 20px;
+    min-height: 565px;
+    background: #DADAD8 url("../img/bg/bg-header--mobile@1x.jpg") no-repeat 0 50px;
+    background-size: cover;
+    @media @retina2x {
+      background: #DADAD8 url("../img/bg/bg-header--mobile@2x.jpg") no-repeat 0 50px;
+      background-size: cover;
+    }
+  }
+
+  &__stripe {
+    background-color: @black-alpha;
+  }
+
+  &__logo {
+    display: block;
+    position: absolute;
+    top: -9px;
+    width: 185px;
+    height: 145px;
+    background: url("../img/logos/logo-header.svg") 0 0 no-repeat;
+    background-size: contain;
+    text-indent: @over9000;
+  }
+
+  &__title {
+    min-height: 136px;
+    padding-left: 210px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 136px;
+    color: @white;
+
+    @media @desktop {
+      font-size: @h1;
+    }
+    @media @resize {
+      font-size: 4vw;
+    }
+    @media @mobile {
+      position: relative;
+      top: 15px;
+      padding-left: 215px;;
+      font-size: ceil(@h1 * 0.8);
+      line-height: 1.1em;
+    }
+  }
+}

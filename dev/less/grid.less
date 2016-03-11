@@ -1,0 +1,138 @@
+.stripe {
+	position: relative;
+
+	&&--green {
+		background-color: @green;
+	}
+
+	&&--green-triangle::after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		border: 30px solid @green;
+		border-bottom: 0;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		left: 50%;
+		transform: translateX(-50%);
+		@media @mobile {
+			display: none;
+		}
+	}
+
+	&&--darkgray {
+		background-color: @gray--darker;
+	}
+
+	&&--pre-footer {
+		background-color: @gray;
+	}
+
+	&&--mid-pic {
+		padding: 70px 0 75px;
+		@media @desktop {
+			background: #E2EAEC url(../img/bg/bg-mid--desktop@1x.jpg) no-repeat 50% 0;
+			background-size: cover;
+		}
+
+		@media @resize {
+			background: #E2EAEC url("../img/bg/bg-mid--resize.jpg") no-repeat 50% 0;
+      background-size: cover;
+		}
+	}
+
+	&&--triangles {
+		padding: 70px 0 45px;
+
+		@media @desktop {
+			background: @gray url(../img/bg/bg-triangles--desktop@1x.jpg) no-repeat 50% 0;
+			background-size: cover;
+      @media @retina2x {
+        background: @gray url("../img/bg/bg-triangles--desktop@2x.jpg") no-repeat 50% 0;
+        background-size: cover;
+      }
+		}
+
+		@media @resize {
+			background: #73787C url("../img/bg/bg-triangles--resize.jpg") no-repeat 50% 0;
+      background-size: cover;
+		}
+	}
+
+	&&--map {
+		min-height: 545px;
+		background-color: @gray;
+	}
+}
+
+.content-wrapper {
+	.clearfix();
+	position: relative;
+
+	@media @desktop {
+		width: @screen--lg;
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+	@media @mobile {
+		box-sizing: border-box;
+		padding: 0 8%;
+	}
+
+	&&--top-mobile {
+		@media @mobile {
+			padding-left: 10px;
+			padding-right: 0;
+		}
+	}
+
+	&&--features {
+		padding: 40px 10px 75px;
+	}
+
+	&&--features_mobile,
+	&&--form_mobile {
+		@media @mobile {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	&&--pre-footer {
+		padding-top: 20px;
+		padding-bottom: 15px;
+		background-color: @gray;
+		@media @mobile {
+			padding-top: 30px;
+			padding-bottom: 25px;
+		}
+	}
+}
+
+/* The flex trick to ensure the MOBILE layout meets the whims of PSD mockup */
+.flex-item {
+
+	&&--header {
+		order: 0;
+	}
+
+	&&--form {
+		order: 2;
+	}
+
+	&&--why-us {
+		order: 1;
+	}
+
+	&&--map {
+		order: 3;
+	}
+
+	&&--pre-footer {
+		order: 4;
+	}
+
+	&&--footer {
+		order: 5;
+	}
+}

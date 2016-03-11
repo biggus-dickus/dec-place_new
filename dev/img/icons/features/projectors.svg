@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 200 200" xml:space="preserve" height="200px" width="200px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+<switch>
+	<foreignObject y="0" x="0" height="1" width="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+		<g id="icons">
+					<rect y="43.277" x="40.01" height="4" width="129.62" fill="#404148"/>
+					<rect y="139.89" x="40.01" height="4" width="129.62" fill="#404148"/>
+					<rect y="45.277" x="46.955" height="96.608" width="4" fill="#404148"/>
+					<rect y="45.277" x="158.68" height="96.608" width="4" fill="#404148"/>
+						<rect transform="matrix(.7103 .7039 -.7039 .7103 133.79 -6.3776)" height="49.166" width="4.001" y="134.76" x="72.644" fill="#404148"/>
+						<rect transform="matrix(.704 .7102 -.7102 .704 153.13 -48.704)" height="4.001" width="49.166" y="157.34" x="110.41" fill="#404148"/>
+					<path d="m104.82 117.3c-13.085 0-23.73-10.64-23.73-23.717 0-13.084 10.646-23.729 23.73-23.729 13.086 0 23.731 10.645 23.731 23.729 0 13.077-10.65 23.717-23.73 23.717zm0-43.444c-10.88 0-19.73 8.851-19.73 19.729 0 10.872 8.851 19.717 19.73 19.717s19.731-8.845 19.731-19.717c0-10.876-8.85-19.727-19.73-19.727z" fill="#404148"/>
+					<path d="m96.908 109.89v-30.937l19.834 15.473-19.832 15.464zm4.002-22.744v14.555l9.33-7.275-9.33-7.279z" fill="#404148"/>
+					<rect y="141.89" x="102.82" height="29.392" width="4" fill="#404148"/>
+					<rect y="38.368" x="102.82" height="6.909" width="4" fill="#404148"/>
+		</g>
+	</g>
+</switch>
+</svg>

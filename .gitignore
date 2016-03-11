@@ -1,0 +1,9 @@
+node_modules/
+build/
+*.log
+Thumbs.db
+.DS_Store
+prepros.cfg
+*.sublime*
+*.map
+css/*.css
