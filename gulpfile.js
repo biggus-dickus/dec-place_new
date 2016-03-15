@@ -13,6 +13,8 @@ var gulp = require('gulp'),
   rigger = require('gulp-rigger'),
   cmq = require('gulp-combine-mq'),
   cssnano = require('gulp-cssnano'),
+  spritesmith = require('gulp.spritesmith'),
+  buffer = require('vinyl-buffer'),
   imagemin = require('gulp-imagemin'),
   pngquant = require('imagemin-pngquant'),
   rimraf = require('rimraf'),
@@ -25,6 +27,7 @@ var path = {
     js: 'build/js/',
     css: 'build/css/',
     img: 'build/img/',
+    sprite: 'build/img/sprite/',
     fonts: 'build/fonts/'
   },
   src: {
@@ -32,6 +35,7 @@ var path = {
     js: 'src/js/main.js',
     styles: 'src/styles/main.less',
     img: 'src/img/**/*.*',
+    sprite: 'src/img/sprite/input/*.png',
     fonts: 'src/fonts/**/*.*'
   },
   watch: {
@@ -105,6 +109,29 @@ gulp.task('img:build', function () {
     }))
     .pipe(gulp.dest(path.build.img))
     .pipe(reload({stream: true}));
+});
+
+gulp.task('sprite:build', function () {
+  var spriteData = gulp.src(path.src.sprite).pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.css'
+  }));
+
+  // Pipe image stream through image optimizer and onto disk
+  var imgStream = spriteData.img
+    // DEV: We must buffer our stream into a Buffer for `imagemin`
+    .pipe(buffer())
+    .pipe(imagemin({
+      optimizationLevel: 3,
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest(path.build.sprite));
+
+    // Pipe CSS stream through CSS optimizer (if needed) and onto disk
+  var cssStream = spriteData.css
+    .pipe(gulp.dest(path.build.sprite));
+
+  return;
 });
 
 gulp.task('fonts:build', function() {
