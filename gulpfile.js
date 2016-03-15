@@ -82,7 +82,7 @@ gulp.task('css:build', function () {
       }))
     .pipe(cmq())
     .pipe(cssnano())
-    // .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write(path.build.css + '/sourcemaps'))
     .pipe(rename('main.min.css'))
     .pipe(gulp.dest(path.build.css))
     .pipe(reload({stream: true}));
@@ -93,7 +93,7 @@ gulp.task('js:build', function () {
     .pipe(rigger())
     // .pipe(sourcemaps.init())
     .pipe(uglify())
-    // .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write(path.build.css + '/sourcemaps'))
     .pipe(rename('main.min.js'))
     .pipe(gulp.dest(path.build.js))
     .pipe(reload({stream: true}));
